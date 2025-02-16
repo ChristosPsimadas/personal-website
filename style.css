@@ -1,0 +1,95 @@
+.jersey-15-regular {
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+@font-face {
+    font-family: 'Industry Test Book';
+    src: url('Industry-Book.woff') format('woff'),
+        url('Industry-Book.ttf') format('truetype'),
+        url('Industry-Book.svg#Industry-Book') format('svg');
+}
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color:white;    
+}
+
+
+p, li, span {  
+    font-family: MS Gothic;
+    
+}
+
+
+/*
+p, li, span {
+    font-family: 'Industry Test Book', sans-serif;
+    font-weight: 150;
+}
+*/
+
+
+
+
+.container {
+    display: flex;
+    width: 60%;
+    height: 80%;
+
+    /*between the two boxes*/
+    gap: 20px;
+}
+
+/* Left column is larger */
+#left-column {
+    flex: 2;
+}
+
+/* Right column is smaller */
+#right-column {
+    flex: 1;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+    background: transparent;
+    border-radius: 3px;
+}
+
+.text-box {
+    background: transparent;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 16px;
+
+
+    border: 3px;
+    border-style: solid;
+    border-color: darkslategrey; 
+    border-radius: 4px; 
+}
+
+h1, h3 {
+    font-family: 'Industry Test Book', sans-serif;
+    font-weight: 150;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: 'Industry Test Book', sans-serif;
+    font-weight: 150;
+
+}
+
+
