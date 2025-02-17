@@ -11,7 +11,15 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #020303;
+    
+    background-image: url('images/bg.png');
+
+    background-repeat: repeat;
+
+    background-size: auto;
+
+    background-position: top left;
+
     color:#E7EBEF;    
 }
 
@@ -44,12 +52,13 @@ p, li, span {
     flex-direction: column;
     gap: 10px;
     padding: 0px;
-    background: transparent;
+    background-color: #020303;
+    
     border-radius: 3px;
 }
 
 .text-box {
-    background: transparent;
+    background-color: #020303;
     padding: 15px;
     border-radius: 5px;
     text-align: left;
@@ -117,6 +126,8 @@ video  {
 
 .project-text {
     text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
 }
 
 .socials-list {
@@ -161,6 +172,26 @@ video  {
 .socials-list li a:hover {
     text-decoration: underline;
     color: #E7EBEF;
+}
+
+.image-border {
+    border: 3px;
+    border-style: solid;
+    border-color: darkslategrey; 
+    border-radius: 4px; 
+    
+    background: transparent; 
+    float: left;
+
+    margin-right: 20px;
+
+
+}
+
+.image-me {
+    width: 120px;
+    height: auto;
+    margin-bottom: -4px;
 }
 
 
